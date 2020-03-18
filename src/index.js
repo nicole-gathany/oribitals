@@ -8,6 +8,11 @@ function orbitalPeriod(arr) {
     )
   );
   console.log(orbitalArr);
+  let resultArr = [];
+  for (let i = 0; i < orbitalArr.length; i++) {
+    resultArr.push({ name: arr[i].name, orbitalPeriod: orbitalArr[i] });
+  }
+  return resultArr;
 }
 
 console.log(orbitalPeriod([{ name: "sputnik", avgAlt: 35873.5553 }]));
