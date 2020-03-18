@@ -1,2 +1,0 @@
-# oribitals
-Created with CodeSandbox
